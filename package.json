@@ -1,0 +1,34 @@
+{
+  "name": "dikantek-backend",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "dependencies": {
+    "@nestjs/common": "^11.0.8",
+    "@nestjs/core": "^11.0.8",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.0.8",
+    "@nestjs/swagger": "^11.0.3",
+    "bcryptjs": "^2.4.3",
+    "docker-compose": "^1.1.0",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.7.1",
+    "speakeasy": "^2.0.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/speakeasy": "^2.0.10",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "start:dev": "ts-node-dev --respawn --transpileOnly src/main.ts"
+  }
+}
